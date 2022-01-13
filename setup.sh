@@ -1,5 +1,5 @@
 sudo apt update
-sudo apt upgrade
+sudo apt upgrade -y
 sudo apt install ca-certificates git-all tmux byobu apg   \
      atop bmon bsdmainutils ccze cmatrix htop jp2a mlocate \
      moreutils openssh-client speedometer tree python3-pip  \
