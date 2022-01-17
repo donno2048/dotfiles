@@ -1,7 +1,9 @@
 git clone git://source.winehq.org/git/wine.git
 cd wine/
+sudo dpkg --add-architecture i386
+sudo apt update
 sudo apt install flex bison gcc-mingw-w64 libasound2-dev        \
-     libpulse-dev libdbus-1-dev libfontconfig-dev                \
+     libpulse-dev libdbus-1-dev libfontconfig-dev wine32         \
      libfreetype-dev libgnutls28-dev libjpeg62-turbo-dev          \
      libpng-dev libtiff-dev libgl-dev libunwind-dev libxml2-dev    \
      libxslt1-dev libfaudio-dev libgstreamer1.0-dev winbind         \
@@ -15,4 +17,3 @@ make
 sudo make install
 cd ..
 rm -rf wine/
-echo "alias wine='wine64'" >> ~/.bashrc
