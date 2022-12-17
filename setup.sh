@@ -5,8 +5,6 @@ sudo apt install ca-certificates git-all tmux byobu apg   \
      moreutils openssh-client speedometer tree python3-pip  \
      man-db grep gcc ffmpeg libsm6 libxext6 nasm python3-tk  \
      wget firefox-esr -y
-git config --global user.email "just4now666666@gmail.com"
-git config --global user.name "donno2048"
 wget https://github.com/donno2048/hollywood/releases/download/v1.0.0/hollywood.deb
 wget https://github.com/sharkdp/bat/releases/download/v0.18.3/bat_0.18.3_amd64.deb
 wget https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-linux64.tar.gz
