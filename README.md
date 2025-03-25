@@ -7,7 +7,6 @@ Files I use to set-up my Debian and Windows machines
 ### Debian
 
 ```sh
-bash setup.sh
 mv .bashrc ~
 mv .gitconfig ~
 ```
