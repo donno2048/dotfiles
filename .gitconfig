@@ -1,5 +1,13 @@
 [user]
-	name = donno2048
-	email = just4now666666@gmail.com
+        name = donno2048
+        email = just4now666666@gmail.com
 [core]
-	autocrlf = false
+        autocrlf = false
+[sendemail]
+        smtpPass = ****************
+        smtpserver = smtp.gmail.com
+        smtpuser = just4now666666@gmail.com
+        smtpencryption = tls
+        smtpserverport = 587
+[diff]
+        renames = true
